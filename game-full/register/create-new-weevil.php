@@ -76,17 +76,8 @@ if(isset($_POST['userID']) && isset($_POST['password']) && isset($_POST['recap']
     $recap = $_POST['recap'];
 
     if(!empty($username) && !empty($password) && !empty($recap)) {
-        if(!$pfcensor->hasProfanity($username) && strpos($bbcensor->censorString($username, true)['clean'], '*') === false && preg_match('/^(?=[a-zA-Z]{2})(?=.{3,16})[\w -]+$/iD', $username) && !preg_match('/([a-z A-Z]+\w)\1+$/', $username) && strlen($username) <= 16
-        && preg_match_all('/[0-9]/', $username) <= 4 && preg_match_all('/-/', $username) <= 2 && preg_match_all('/_/', $username) <= 2 && preg_match('/^\S.*\S$/', $username) && substr_count($username, ' ') <= 2) {
-            // valid username
-            if(checkReservedName($username) || checkUserExists($username) || strlen($username) > 16 || strlen($username) < 3) {
-                echo 'responseCode=3';
-                return;
-            }
-            echo createWeevil($username, $password);
-        }
-        else
-        echo 'responseCode=2';
+        
+        echo createWeevil($username, $password);
     }
     else
     echo 'responseCode=999';

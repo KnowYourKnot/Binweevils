@@ -27,10 +27,10 @@ switch (process.platform) {
     // if you want the 32-bit version instead, then uncomment the following
     // pluginName = 'plugins/pepflashplayer32_23_0_0_162.dll'
   case 'darwin':
-    pluginName = 'PepperFlashPlayer.plugin'
+    pluginName = '/plugins/PepperFlashPlayer.plugin'
     break
   case 'linux':
-    pluginName = 'libpepflashplayer.so'
+    pluginName = '/plugins/libpepflashplayer.so'
     break
 }
 app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, pluginName))

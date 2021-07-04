@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2021 at 06:42 PM
+-- Generation Time: Jul 05, 2021 at 01:46 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.6
 
@@ -124,6 +124,131 @@ CREATE TABLE `appareltypes` (
   `isLive` int(11) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `appareltypes`
+--
+
+INSERT INTO `appareltypes` (`id`, `category`, `name`, `description`, `paletteId`, `price`, `probability`, `minLevel`, `tycoonOnly`, `isLive`) VALUES
+(1, 1, 'Classic Top Hat', 'The original Bin Tycoon Hat!', 24, 10, 20, 2, 1, 1),
+(2, 1, 'KOTB Crown', 'Retro King of the Bin Crown', 0, 140, 10, 53, 1, 0),
+(3, 1, 'Bucket Hat', 'Perfect for the beach!', 29, 5, 10, 2, 1, 1),
+(4, 1, 'Viking Helmet', 'With long horns!', 0, 35, 30, 14, 1, 1),
+(5, 1, 'Roman Helmet', 'Veni Vidi Vici!', 0, 70, 30, 27, 1, 1),
+(6, 1, 'Plain Helmet', 'Just a plain helmet!', 0, 8, 30, 3, 1, 1),
+(7, 0, 'Witch\'s Hat', 'Cook up a brew!', 0, 10, 10, 6, 1, 0),
+(8, 1, 'Jester\'s Hat', 'Got a joke to tell?', 26, 23, 20, 9, 1, 1),
+(9, 1, 'Jester\'s Hat', 'Got a joke to tell?', 27, 23, 20, 9, 1, 1),
+(10, 1, 'USA Hat', 'Show off your stars and stripes!', 0, 28, 5, 11, 1, 1),
+(11, 1, 'Canadian Hat', 'O Canada!', 0, 14, 5, 11, 1, 1),
+(12, 1, 'Cowboy Hat', 'Yeee hawww!', 28, 8, 6, 3, 1, 1),
+(13, 1, 'Sailor\'s Hat', 'Off to the high seas!', 0, 5, 30, 4, 1, 1),
+(14, 1, 'Chef\'s Hat', 'Wear it in the kitchen!', 0, 28, 30, 11, 1, 1),
+(15, 1, 'Colourful Tam', 'With a pom pom on top!', 0, 25, 4, 6, 1, 1),
+(16, 1, 'Chic Beret', 'For the weevily artist!', 30, 13, 6, 5, 1, 1),
+(17, 1, 'Chic Beret', 'For the weevily artist!', 31, 13, 8, 8, 1, 1),
+(18, 1, 'Policeman\'s Hat', 'Protect the Bin!', 0, 20, 30, 8, 1, 1),
+(19, 1, 'Red Striped Top Hat', 'Adds a bit of flair!', 0, 20, 30, 8, 1, 1),
+(20, 1, 'Blue Striped Top Hat', 'Adds a bit of flair!', 0, 20, 30, 8, 1, 1),
+(21, 1, 'Pink Striped Top Hat', 'Adds a bit of flair!', 0, 20, 30, 8, 1, 1),
+(22, 1, 'Striped Top Hat', 'Adds a bit of flair!', 32, 20, 7, 8, 1, 1),
+(23, 1, 'Bling Top Hat', 'Put some bling on your brim!', 0, 115, 40, 45, 1, 1),
+(24, 1, 'Rainbow Top Hat', 'Colour your world!', 0, 30, 2, 8, 1, 1),
+(25, 1, 'Checkered Top Hat', 'Fancy a game of checkers?', 32, 25, 7, 10, 1, 1),
+(26, 1, 'Tricorne Hat', 'A classic pirate look!', 0, 15, 30, 12, 1, 0),
+(27, 1, 'Union Jack Hat', 'Classic British Style!', 0, 28, 4, 11, 1, 1),
+(28, 1, 'Daisy Hat', 'Flower power!', 33, 15, 25, 6, 1, 1),
+(29, 1, 'Rose Hat', 'Flower power!', 34, 18, 20, 7, 1, 1),
+(30, 1, 'Rose Hat', 'Flower power!', 35, 20, 20, 8, 1, 1),
+(31, 1, 'Daffodil Hat', 'Flower power!', 90, 25, 20, 10, 1, 1),
+(32, 1, 'Spiky Hat', 'For a crazy spiky look!', 37, 60, 5, 20, 1, 1),
+(33, 1, 'Super Spiky Hat', 'For a crazy spiky look!', 37, 85, 5, 26, 1, 1),
+(34, 1, 'Mohawk Spiky Hat', 'For a crazy spiky look!', 37, 93, 5, 22, 1, 1),
+(35, 1, 'Viking Helmet', 'With short horns', 0, 33, 30, 13, 1, 1),
+(36, 1, 'Viking Helmet', 'With mini horns', 0, 30, 30, 12, 1, 1),
+(37, 1, 'Fancy Viking Helmet', 'With curved horns and spike', 0, 80, 30, 31, 1, 1),
+(38, 0, 'Witch\'s Hat with Stars', 'An extra spooky brew!', 0, 10, 20, 10, 1, 0),
+(39, 1, 'Baseball Cap', 'Home Run!', 38, 5, 8, 2, 1, 1),
+(40, 1, 'Firefighter Helmet', 'Safety first!', 0, 38, 30, 15, 1, 1),
+(41, 1, 'Rasta Hat', 'Chillin\' with my weevil peeps', 39, 35, 5, 14, 1, 1),
+(42, 1, 'Jolly Roger Hat', 'Ahoy matey! Arrrrr!', 0, 30, 10, 26, 1, 0),
+(43, 1, 'Rasta Hat', 'Chillin\' with my weevil peeps', 40, 35, 10, 14, 1, 1),
+(44, 1, 'Rasta Hat', 'Chillin\' with my weevil peeps', 41, 35, 15, 14, 1, 1),
+(45, 1, 'Bowler Hat', 'Refined and classic', 25, 8, 8, 3, 1, 1),
+(46, 1, 'Traffic Cone Hat', 'Can\'t miss this hat!', 0, 20, 10, 4, 1, 1),
+(47, 1, 'Jewel Crown', 'For true Bin Royalty!', 50, 140, 8, 55, 1, 1),
+(48, 1, 'Diamond Crown', 'For true Bin Royalty!', 50, 125, 8, 50, 1, 1),
+(49, 1, 'Classic Crown', 'For true Bin Royalty!', 48, 80, 20, 30, 1, 1),
+(50, 1, 'Bling Crown', 'For true Bin Royalty!', 49, 100, 20, 40, 1, 1),
+(51, 1, 'Mini Crown', 'A touch of Bin Royalty!', 0, 90, 3, 35, 1, 1),
+(52, 1, 'Fancy Crown', 'For true Bin Royalty!', 0, 138, 30, 55, 1, 1),
+(53, 1, 'Posh Crown', 'With a diamond on top. The ultimate hat to own!', 0, 180, 30, 60, 1, 1),
+(54, 1, 'Ribbon Hat', 'Everything\'s better with a bow!', 29, 13, 7, 5, 1, 1),
+(55, 1, 'Fluffy Hat', 'For a cold winter day!', 25, 10, 8, 4, 1, 0),
+(56, 1, 'Elf Hat', 'Santa\'s little helper!', 42, 6, 10, 5, 1, 0),
+(57, 1, 'Elf Hat', 'Santa\'s little helper!', 43, 6, 10, 6, 1, 0),
+(58, 1, 'Emerald Elf Hat', 'With gold leaf and emeralds', 91, 6, 10, 20, 1, 0),
+(59, 1, 'Ruby Elf Hat', 'With gold leaf and rubies', 0, 6, 10, 40, 1, 0),
+(60, 1, 'Rainbow Pixie Hat', 'Super cute and colourful!', 0, 20, 2, 8, 1, 1),
+(61, 1, 'Pixie Hat', 'A cute pointy hat', 44, 18, 10, 7, 1, 1),
+(62, 1, 'Ribbon Pixie Hat', 'A cute pointy hat', 44, 18, 10, 7, 1, 1),
+(63, 1, 'Pixie Hat with Hearts', 'A cute pointy hat', 45, 20, 12, 8, 1, 1),
+(64, 1, 'Captain\'s Hat', 'Perfect for a pilot!', 0, 19, 30, 15, 1, 1),
+(65, 1, 'Indian Headdress', 'With a single feather', 91, 40, 8, 16, 1, 1),
+(66, 1, 'Indian Headdress', 'With three feathers', 91, 50, 5, 20, 1, 1),
+(67, 1, 'Indian Headdress', 'With five feathers', 91, 70, 5, 28, 1, 1),
+(68, 1, 'Indian Chief Headdress', 'With seven feathers', 91, 95, 5, 38, 1, 1),
+(69, 1, 'Super Chief Headdress', 'With nine feathers', 91, 145, 5, 60, 1, 1),
+(70, 1, 'Cupcake Hat with Bow', 'Oh so cute!', 47, 20, 12, 6, 1, 1),
+(71, 1, 'Cupcake Hat', 'Oh so cute!', 47, 10, 12, 6, 1, 1),
+(72, 1, 'Bin Hat', 'Wear your bin with pride!', 51, 15, 3, 4, 1, 1),
+(73, 1, 'Umbrella Hat', 'To keep you dry!', 52, 40, 3, 15, 1, 1),
+(74, 1, 'Lightbulb Helmet', 'I\'ve had an idea!', 0, 25, 30, 3, 1, 1),
+(75, 1, 'England Hat', 'A lovely English hat!', 0, 30, 40, 11, 1, 1),
+(76, 0, 'Wizard\'s Hat', 'Made with magic!', 87, 10, 127, 15, 1, 0),
+(77, 1, 'Egg Hat', 'Complete with a shiny yolk!', 0, 18, 50, 7, 1, 0),
+(78, 1, 'Gam\'s Hat', 'The look of the SWS chief!', 0, 15, 50, 6, 1, 1),
+(79, 1, 'Hourglass Hat', 'It\'s time for some sandy style!', 0, 50, 50, 19, 1, 1),
+(80, 1, 'Palace Guard Hat', 'Inspires respect and keeps your head cosy!', 0, 127, 127, 20, 1, 1),
+(81, 1, 'SWS Hat', 'For agents who aren\'t undercover!', 0, 7, 80, 6, 1, 1),
+(82, 1, 'Disco Ball Hat', 'Perfect headgear for a dance party!', 0, 20, 60, 6, 1, 1),
+(83, 1, 'Genie Hat', 'Abracadabra!', 0, 50, 50, 20, 1, 1),
+(84, 1, 'Sombrero', 'It\'s fiesta time!', 0, 55, 30, 20, 1, 1),
+(85, 1, 'Green Arrow Hat', 'Draw attention to yourself!', 0, 65, 0, 25, 1, 1),
+(86, 1, 'Ice Cream Hat', 'A cone of chocolate ice cream!', 0, 40, 30, 15, 1, 1),
+(87, 1, 'Ice Cream Hat', 'A cone of strawberry ice cream!', 0, 40, 30, 15, 1, 1),
+(88, 1, 'Football Hat', 'Celebrate the beautiful game!', 0, 20, 40, 3, 1, 1),
+(89, 1, 'Helicopter Cap', 'Summer fun all year long!', 0, 40, 30, 15, 1, 1),
+(90, 1, 'Tour Guide Hat', 'Show new Bin Weevils around!', 0, 25, 127, 10, 1, 1),
+(91, 1, 'Green Cauldron', 'Try not to spill it!', 0, 15, 15, 5, 1, 0),
+(92, 0, 'Grinning Pumpkin', 'The perfect complement to any spooky look!', 0, 20, 5, 4, 1, 0),
+(93, 1, 'Unicorn Hat', 'Mythical and Magical!', 0, 140, 50, 42, 1, 1),
+(94, 1, 'Pencil Hat', 'This hat is perfect for magazine writing!', 0, 50, 30, 5, 1, 0),
+(95, 0, 'Santa Hat', 'Complete your festive look!', 0, 30, 10, 5, 1, 0),
+(96, 1, 'Blue Bobble Hat', 'It keeps your head nice and toasty!', 0, 30, 60, 10, 1, 0),
+(97, 1, 'Green Bobble Hat', 'It keeps your head nice and toasty!', 0, 30, 60, 10, 1, 0),
+(98, 1, 'Pink Bobble Hat', 'It keeps your head nice and toasty!', 0, 30, 60, 10, 1, 0),
+(99, 1, 'Colourful Bobble Hat', 'It keeps your head nice and toasty!', 0, 30, 60, 10, 1, 0),
+(100, 1, 'Flam\'s Aviator', 'Perfect for pilots!', 0, 80, 50, 25, 1, 1),
+(101, 1, 'Cabin Crew Hat', 'Official Weevil Air Uniform!', 0, 35, 127, 20, 1, 1),
+(102, 0, 'Shamrock Hat', 'Celebrate Saint Patrick\'s Day', 0, 10, 127, 1, 1, 0),
+(103, 1, 'Pot o\' Gold', 'Bling, bling. bling!', 0, 40, 127, 25, 1, 0),
+(104, 1, 'Periscope Hat', 'Perfect for spotting Sink\'s Ships!', 0, 20, 127, 5, 1, 1),
+(105, 1, 'White Bunny Hat', 'Hoppity hop into spring!', 0, 10, 127, 20, 1, 0),
+(106, 1, 'Brown Bunny Hat', 'Hoppity hop into spring!', 0, 10, 127, 20, 1, 0),
+(107, 1, 'Gold Bunny Hat', 'Hoppity hop into spring!', 0, 30, 127, 20, 1, 0),
+(108, 1, 'Birdie Hat', 'Disguise yourself as a cute little birdie!', 0, 30, 127, 40, 1, 0),
+(109, 1, 'Thugg Bowler Hat', 'Show your support for the WEB by wearing the infamous Thugg Bowler Hat!', 0, 10, 127, 6, 1, 1),
+(110, 1, 'Goldfish Bowl', 'Just Keep Swimming', 0, 17, 127, 15, 1, 1),
+(111, 1, 'Extra Tall Hat', 'Tower above Weevils with this higher than average hat!', 0, 50, 127, 17, 1, 0),
+(112, 1, 'Clown Hat', 'Keep everyone entertained with this comical hat!', 0, 35, 127, 10, 1, 0),
+(113, 1, 'Sun Hat', 'Keep cool AND look cool in this fashionable Sun Hat!', 0, 35, 127, 19, 1, 0),
+(114, 0, 'Frankenhat', 'Limited edition hat! It\'s aliiiive and only fiiiifty fiiiiive Dosh!', 0, 25, 127, 1, 1, 0),
+(115, 0, 'Festive Pudding Hat', 'Cold antenna? Pop a pudding on your head!', 0, 13, 127, 5, 1, 0),
+(116, 1, 'Blue Birdie Hat', 'Disguise yourself as a cute little blue birdie!', 0, 1, 0, 1, 1, 0),
+(117, 1, 'Blue Bunny Hat', 'Hoppity hop into spring!', 92, 1, 0, 1, 1, 0),
+(118, 1, 'Purple Crown', 'BOTB Winner Prize', 0, 0, 0, 0, 0, 0),
+(119, 1, 'Bright BOTB Crown', 'BOTB Runnerup Prize', 0, 0, 0, 0, 0, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -164,6 +289,13 @@ CREATE TABLE `buddyalerts` (
   `time` int(255) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `buddyalerts`
+--
+
+INSERT INTO `buddyalerts` (`id`, `weevil`, `message`, `iconPath`, `time`) VALUES
+(1, 'smiley', '<a href=\"event:weevil|1\\\">smiley</a> has reached level 2!', 'cdn.binw.net/users/o_levelTrophy2_thumb.swf', 1625441915);
+
 -- --------------------------------------------------------
 
 --
@@ -177,6 +309,15 @@ CREATE TABLE `buddylist` (
   `blockList` longtext NOT NULL DEFAULT '',
   `requestList` longtext NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `buddylist`
+--
+
+INSERT INTO `buddylist` (`id`, `ownerName`, `namesList`, `blockList`, `requestList`) VALUES
+(1, 'smiley', '', '', ''),
+(2, 'smiley2', '', '', ''),
+(3, 'smiley22', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -3559,6 +3700,13 @@ CREATE TABLE `nest` (
   `plantTimer` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `nest`
+--
+
+INSERT INTO `nest` (`id`, `ownerName`, `idx`, `lastUpdate`, `score`, `fuel`, `gardenSize`, `dailyHarvest`, `plazaTimer`, `plantTimer`) VALUES
+(1, 'smiley', 1, '2021-07-04 18:57:00', 0, 79280, 1, '0,0', 0, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -3575,6 +3723,17 @@ CREATE TABLE `nestinfo` (
   `signClr` varchar(255) NOT NULL DEFAULT '-1',
   `name` varchar(255) DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `nestinfo`
+--
+
+INSERT INTO `nestinfo` (`Weevil`, `locID`, `roomID`, `colour`, `busOpen`, `signTxtClr`, `signClr`, `name`) VALUES
+('smiley', 4, 1, '0|0|0', 1, '-1', '-1', ''),
+('smiley', 20, 2, '0|0|0', 1, '-1', '-1', ''),
+('smiley', 5, 3, '0|0|0', 1, '-1', '-1', ''),
+('smiley', 10, 4, '0|0|0', 1, '-1', '-1', ''),
+('smiley', 50, 5, '0|0|0', 1, '-1', '-1', '');
 
 -- --------------------------------------------------------
 
@@ -7874,6 +8033,15 @@ CREATE TABLE `users` (
   `regIP` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `isModerator`, `sessionKey`, `loginKey`, `level`, `mulch`, `dosh`, `tycoon`, `def`, `xp`, `xp1`, `xp2`, `food`, `canSpeak`, `activated`, `lastLogin`, `curHat`, `invitedBy`, `active`, `bannedUntil`, `createdAt`, `loginIP`, `regIP`) VALUES
+(1, 'smiley', 'smiley', '', 0, 'lBQJEPGqY_DnPrWZv_GgEbjlG', 'yFjdT', 237, 5000, 25, 1, '101101406100171700', 200000000, 180000, 180000, 100, '0', 0, 1625442210, '|1:-140,-140,-140', NULL, 1, 0, 1625421373, '127.0.0.1', '::1'),
+(2, 'smiley2', 'smiley2', '', 0, '_vdHafYLIPrgTuJgfCcgetmhk', 'RXqeX', 1, 5000, 25, 1, '101101406100171700', 0, 0, 30, 100, '0', 0, 1625421642, '|1:-140,-140,-140', NULL, 1, 0, 1625421642, NULL, '::1'),
+(3, 'smiley22', 'lol123', '', 0, 'tMDXnGXmNNabAgHBFLtSdDHTI', 'biiVH', 1, 5000, 25, 1, '101101406100171700', 0, 0, 30, 100, '0', 0, 1625421815, '|1:-140,-140,-140', NULL, 1, 0, 1625421750, '::1', '::1');
+
 -- --------------------------------------------------------
 
 --
@@ -7929,6 +8097,13 @@ CREATE TABLE `weevilitems` (
   `spot` int(11) NOT NULL DEFAULT 0,
   `internalCategory` int(11) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `weevilitems`
+--
+
+INSERT INTO `weevilitems` (`ID`, `weevilID`, `itemId`, `colour`, `category`, `isInRoom`, `configName`, `roomId`, `position`, `fID`, `spot`, `internalCategory`) VALUES
+(1, 1, 1986, '0', 993, 0, 'o_levelTrophy2', 0, 1, 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -8331,7 +8506,7 @@ ALTER TABLE `achievementtypetags`
 -- AUTO_INCREMENT for table `appareltypes`
 --
 ALTER TABLE `appareltypes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
 
 --
 -- AUTO_INCREMENT for table `bubblecompetitions`
@@ -8349,13 +8524,13 @@ ALTER TABLE `bubblehunts`
 -- AUTO_INCREMENT for table `buddyalerts`
 --
 ALTER TABLE `buddyalerts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `buddylist`
 --
 ALTER TABLE `buddylist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `camerapics`
@@ -8451,13 +8626,13 @@ ALTER TABLE `multiplayergames`
 -- AUTO_INCREMENT for table `nest`
 --
 ALTER TABLE `nest`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `nestinfo`
 --
 ALTER TABLE `nestinfo`
-  MODIFY `roomID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `roomID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `newspaperissues`
@@ -8553,7 +8728,7 @@ ALTER TABLE `tycoonbusinesses`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `weevilgames`
@@ -8571,7 +8746,7 @@ ALTER TABLE `weevilhats`
 -- AUTO_INCREMENT for table `weevilitems`
 --
 ALTER TABLE `weevilitems`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `wordsearches`
