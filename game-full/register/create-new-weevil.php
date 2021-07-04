@@ -53,7 +53,7 @@ function createWeevil($username, $password) {
 
     $db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	$q = $db->prepare("INSERT INTO `users` (`username`, `password`, `sessionKey`, `loginKey`, `lastLogin`, `createdAt`, `regIP`) VALUES (?, ?, ?, ?, ?, ?, ?)");
-	$q->bind_param('sssssss', $username, $username, $sessKey, $logKey, $timestamp, $timestamp, $regIP);
+	$q->bind_param('sssssss', $username, $password, $sessKey, $logKey, $timestamp, $timestamp, $regIP);
 	$q->execute();
 
     if($q->affected_rows == 1) {
