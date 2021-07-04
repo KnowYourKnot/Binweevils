@@ -18,3 +18,10 @@ A place where you can run your own local or hosted binweevils private server!
 - Open the command prompt in the `server` folder & run the command `node serverr.js`
 
 Electron should now start a browser that takes you to localhost, all you have to do from here is sign up.
+
+# Discord
+Join the discord for any further help setting up your private server
+[https://discord.gg/J9n8qQvKhx]
+
+# Credit
+Bin Weevils Private Server / Rewritten has been made by 'Smiley' AKA 'Darkk' anybody else who claims to have made it is lying.
