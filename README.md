@@ -27,5 +27,7 @@ That is what electron is used for, once you have done the following steps above,
 Join the discord for any further help setting up your private server
 [https://discord.gg/J9n8qQvKhx]
 
+smiley22#8888
+
 # Credit
 Bin Weevils Private Server / Rewritten has been made by 'Smiley' AKA 'Darkk' anybody else who claims to have made it is lying.
