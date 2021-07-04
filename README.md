@@ -14,7 +14,7 @@ A place where you can run your own local or hosted binweevils private server!
 
 # Usage
 
-- Open the command prompt in the `electron` folder & run the command `npm start'
+- Open the command prompt in the `electron` folder & run the command `npm start`
 - Open the command prompt in the `server` folder & run the command `node Main.js`
 
 Electron should now start a browser that takes you to localhost, all you have to do from here is sign up.
