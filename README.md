@@ -30,4 +30,4 @@ Join the discord for any further help setting up your private server
 smiley22#8888
 
 # Credit
-Bin Weevils Private Server / Rewritten has been made by 'Smiley' AKA 'Darkk' anybody else who claims to have made it is lying.
+Bin Weevils Private Server / Rewritten has been made by 'Smiley' AKA 'Darkk' & HDWEEVIL anybody else who claims to have made it is lying.
