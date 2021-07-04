@@ -19,6 +19,9 @@ A place where you can run your own local or hosted binweevils private server!
 
 Electron should now start a browser that takes you to localhost, all you have to do from here is sign up.
 
+# What about flash player?
+Well, I knew you guys would wonder how you'd be able to run it, so I went out of my way to make a client to allow you to do so, by doing the setup above in the `electron` folder, you're finished and can play the game using electron.
+
 # Discord
 Join the discord for any further help setting up your private server
 [https://discord.gg/J9n8qQvKhx]
