@@ -1,4 +1,4 @@
-# Binweevils
+# Binweevils Private Server [LOCAL EASY SETUP]
 A place where you can run your own local or hosted binweevils private server!
 
 
