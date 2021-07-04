@@ -46,7 +46,7 @@ app.whenReady().then(() => {
       plugins: true
     }
   })
-  win.webContents.openDevTools()
+  //win.webContents.openDevTools() use this if you want to load with dev tools
   win.loadURL(`http://localhost`)
   win.removeMenu();
   
