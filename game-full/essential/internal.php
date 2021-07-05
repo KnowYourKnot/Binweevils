@@ -1117,7 +1117,7 @@
 			if($loggedIn == true) {
 				$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 				$q = $db->prepare("UPDATE `users` SET `dosh` = dosh - ? WHERE `users`.`id` = ?;");
-				$q->bind_param('ss', intval($total), $weevilId);
+				$q->bind_param('ss', $total, $weevilId);
 				$q->execute();
 
 				$res = $q->get_result();
